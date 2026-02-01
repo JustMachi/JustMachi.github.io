@@ -17,6 +17,17 @@ html{
   padding: 1rem;
 }
 
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(171, 171, 244);
+}
+
 .instagram-logo{
     display: flex;
     width: 400px;

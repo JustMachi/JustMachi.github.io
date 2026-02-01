@@ -6,6 +6,7 @@ html{
     height: 100%;
 }
 
+
 .flexbox-grid{
     display: flex;
     gap: 20px; 
@@ -18,13 +19,6 @@ html{
 }
 
 
-#options{
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    width: 40px;
-}
-
 h1{
     background-image: linear-gradient(to right, #FF69B4, #861fed);
     -webkit-background-clip: text;
@@ -32,6 +26,23 @@ h1{
     margin: 0;
     padding: 10px;
 }
+
+h2{
+    text-align: center;
+    margin: 20px;
+}
+
+
+h3{
+    text-align: center;
+    margin: 20px;
+}
+
+h4{
+    text-align: center;
+    margin: 20px;
+}
+
 
 #col-topic{
     flex-grow:100;
@@ -45,22 +56,50 @@ h1{
 
 .video-row{
     display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    width: 100%;
     flex-wrap: wrap;
+    gap: 12px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+    width: 512px; 
+    margin-left: 675px ; 
 }
 
 #video1,
-#video2{
+#video2,
+#video3,
+#video4,
+#video5,
+#video6,
+#video7,
+#video8,
+#video9,
+#video10,
+#video11,
+#video12{
     width: 250px;
     margin: 0;
     display: block;
+} 
+
+
+.sports-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 512px; 
+    margin-left: 675px ; 
 }
 
-    .video-row{
-        flex-direction: row;
-        gap: 12px;
-    }
+
+.anime-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 512px; 
+    margin-left: 675px ; 
+}

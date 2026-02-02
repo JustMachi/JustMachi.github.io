@@ -36,7 +36,7 @@ button:hover {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 300px;
+    padding-top: 210px;
     margin-bottom: 300px;
 }
 
@@ -101,7 +101,7 @@ h4{
     align-items: flex-start;
     margin-top: 50px;
     width: 512px; 
-    margin-left: 675px ; 
+    margin-left: 475px ; 
 }
 
 #video1,
@@ -119,7 +119,17 @@ h4{
     width: 250px;
     margin: 0;
     display: block;
-} 
+    -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+    &.smooth {
+        @include transition(all .5s ease-in-out);
+    }
+    &:hover {
+        -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+    }
+    
+}
 
 
 .sports-row{
@@ -129,7 +139,7 @@ h4{
     justify-content: center;
     align-items: flex-start;
     width: 512px; 
-    margin-left: 675px ; 
+    margin-left: 475px ; 
 }
 
 
@@ -140,7 +150,7 @@ h4{
     justify-content: flex-start;
     align-items: flex-start;
     width: 512px; 
-    margin-left: 675px ; 
+    margin-left: 475px ; 
     margin-bottom: 100px; 
 }
 

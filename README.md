@@ -12,3 +12,4 @@ My personal site.
 - https://codepen.io/Kathleen-Garrity/pen/JjQeMPx - gradient text
 - https://codepen.io/alipalvane/pen/yLxMqpW - fixed header 
 - https://codepen.io/georgeroubie/pen/yaeBmx - grey to colorful
+- Google AI for About me

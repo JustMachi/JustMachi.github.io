@@ -6,17 +6,25 @@ html{
     height: 100%;
 }
 
-
 #bar {
   position: fixed;
   top: 0;
   width: 100%;
-  display: block;
-  display: flex;
-  gap:1rem;
+  display: flex;  
+  flex-direction: row;  
+  gap: 1rem;
   padding: 1rem;
 }
 
+@media (max-width: 1400px) {
+  #bar {
+    flex-direction: column;  
+    flex-wrap: wrap;  
+    text-align: left;
+    justify-content: flex-start;  
+    align-items: flex-start;  
+  }
+}
 button {
     background-color: transparent;
     border: none;
@@ -99,9 +107,10 @@ h4{
     gap: 12px;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 50px;
     width: 512px; 
-    margin-left: 475px ; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px; 
 }
 
 #video1,
@@ -136,21 +145,24 @@ h4{
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     width: 512px; 
-    margin-left: 475px ; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px; 
 }
 
 
-.anime-row{
+.anime-row {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
     justify-content: flex-start;
     align-items: flex-start;
     width: 512px; 
-    margin-left: 475px ; 
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 100px; 
 }
 

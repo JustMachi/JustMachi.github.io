@@ -91,5 +91,17 @@
 </div>
 </body>
 
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault(); 
+          const targetId = link.getAttribute('href').substring(1); 
+          const section = document.getElementById(targetId);
+          if (section) {
+            section.scrollIntoView({ behavior: 'smooth' }); 
+          }
+        });
+      });
+    </script>
 
 </html>

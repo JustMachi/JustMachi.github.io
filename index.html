@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="styles.css">
   </head>
 
+<!-- sends them to the secton when the button is clicked -->
 <header id="bar">
   <button>  
     <a href="#Niche Memes" id="link">Niche Memes </a>
@@ -30,6 +31,8 @@
   </div>  
 </div>
 
+
+<!-- these are the videos for the Niche Memes section, the second row causes the video to play when hover and stop when not -->
 <div class="video-row">
   <video id="video1" class="thevideo" muted onmouseover="this.play()" onmouseout="this.pause()">
     <source src="dog ai.mp4" type="video/mp4">
@@ -49,6 +52,7 @@
 
 </div>
 
+<!-- these are the videos for the sports section -->
 <h1 id="Sports">Sports</h1>
 
 <div class="video-row">
@@ -69,6 +73,7 @@
 
 <h1 id="Anime">Anime</h1>
 
+<!-- these are the videos for the anime section -->
 <div class="video-row">
   <video id="video9" class="thevideo" muted onmouseover="this.play()" onmouseout="this.pause()">
     <source src="Demon Slayer.mp4" type="video/mp4">
@@ -91,6 +96,8 @@
 </div>
 </body>
 
+
+<!-- this adds the scroll animation to the buttons -->
     <script>
       document.querySelectorAll('a[href^="#"]').forEach(link => {
         link.addEventListener('click', (e) => {

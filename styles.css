@@ -6,6 +6,7 @@ html{
     height: 100%;
 }
 
+/* the navigation bar on the top */
 #bar {
   position: fixed;
   top: 0;
@@ -25,6 +26,8 @@ html{
     align-items: flex-start;  
   }
 }
+
+/* makes the background of the button change color when hovered */
 button {
     background-color: transparent;
     border: none;
@@ -32,6 +35,7 @@ button {
     transition: background-color 0.5s ease-in-out;
 }
 
+/* the background color that it changes to */
 button:hover {
   background-color: rgb(171, 171, 244);
 }
@@ -48,18 +52,20 @@ button:hover {
     margin-bottom: 300px;
 }
 
+
 .flexbox-grid{
     display: flex;
     gap: 20px; 
     flex-direction: row-reverse;
 }
 
+/* changes the formatting of the columns */
 .column{
     padding: 0px 100px;
     flex: 1;
 }
 
-
+/* Adds the gradient to the text of the topic */
 h1{
     background-image: linear-gradient(to right, #FF69B4, #861fed);
     -webkit-background-clip: text;
@@ -68,12 +74,13 @@ h1{
     font-size:35px;
 }
 
+/* Changes the text setting of the "about me" */
 h2{
     text-align: center;
     margin: 20px;
 }
 
-
+/* format of the topic of each section */
 #col-topic{
     flex-grow:100;
     display: flex;
@@ -83,7 +90,7 @@ h2{
     position: relative;
 }
 
-
+/* changes the format of each row of the video */
 .video-row{
     display: flex;
     flex-wrap: wrap;
@@ -96,6 +103,8 @@ h2{
     margin-bottom: 100px; 
 }
 
+
+/* Changes the sizes of the video and make the video grey when not hovered and colourful when hovered over it */
 #video1,
 #video2,
 #video3,
@@ -123,6 +132,7 @@ h2{
     
 }
 
+/* "about me" text */
 .about-me{
     text-align: center;
     padding: 100px;

@@ -123,32 +123,6 @@ h2{
     
 }
 
-
-.sports-row{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 512px; 
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px; 
-}
-
-
-.anime-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 512px; 
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px; 
-}
-
 .about-me{
     text-align: center;
     padding: 100px;
